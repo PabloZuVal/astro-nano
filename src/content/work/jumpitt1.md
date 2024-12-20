@@ -1,7 +1,14 @@
 ---
 company: "Jumpitt Labs"
-role: "Developer, Software Engineer 1"
+role: "Android Developer, Software Engineer"
 dateStart: "08/01/2022"
 dateEnd: "08/01/2023"
 ---
-As a developer at Jumpitt Labs, I have accumulated diverse experience across three different projects. In Agromind, I worked as a Front-end Developer using React, Redux, and Saga, focusing on MVP development. In the Boleta Digital project, I implemented designs with Angular 12 and TypeScript, optimizing bill previsualization for Claro. In the Verify project, I assumed a Full Stack Developer role, implementing integration with CUE (Unique State Key) through AWS email services, working on platform redesign alongside designers to establish a new brand guide, generating backends in NodeJS, implementing APIs, designing databases in PostgreSQL, and configuring infrastructure in AWS using services like EC2, NGINX, and Docker. My trajectory reflects a versatile technical expertise, spanning frontend and backend technologies, with cloud infrastructure skills, always focused on creating efficient technological solutions.
+I specialize in Android mobile application development using JAVA and KOTLIN, implementing modern architectural patterns including MVP, VIPER, and MVVM. Proficient in version control using Git Flow for repository management. Experienced in Agile development with Scrum methodology. Skilled in building user interfaces using both traditional XML layouts and modern Jetpack Compose.
+
+* Clean Architecture, MVI, MVVM.
+* UI creation with Jetpack Compose and XML.
+* Data persistence with Realm.
+* Integrated RESTful APIs and third-party libraries (Retrofit, OkHttp, Dagger, Hilt, Glide, Room, etc.) to enhance application functionality.
+* Permission handling and media files management with Activity for Result API.
+* Firebase implementation.

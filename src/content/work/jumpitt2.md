@@ -1,7 +1,13 @@
 ---
 company: "Jumpitt Labs"
-role: "Developer, Software Engineer 2"
+role: "Front-end Developer, Software Engineer"
 dateStart: "08/01/2022"
 dateEnd: "08/01/2023"
 ---
-As a developer at Jumpitt Labs, I have accumulated diverse experience across three different projects. In Agromind, I worked as a Front-end Developer using React, Redux, and Saga, focusing on MVP development. In the Boleta Digital project, I implemented designs with Angular 12 and TypeScript, optimizing bill previsualization for Claro. In the Verify project, I assumed a Full Stack Developer role, implementing integration with CUE (Unique State Key) through AWS email services, working on platform redesign alongside designers to establish a new brand guide, generating backends in NodeJS, implementing APIs, designing databases in PostgreSQL, and configuring infrastructure in AWS using services like EC2, NGINX, and Docker. My trajectory reflects a versatile technical expertise, spanning frontend and backend technologies, with cloud infrastructure skills, always focused on creating efficient technological solutions.
+Frontend Developer experienced in MVP development using React ecosystem (Redux, Saga) and Material-UI. Built responsive interfaces integrated with NestJS backend, PostgreSQL database, and containerized with Docker. Collaborated effectively within Scrum team using JIRA for project management, delivering key functionalities across multiple development sprints.
+
+* Requirements gathering and business understanding for MVP development.
+* Development of React components, managing states with Redux/Saga.
+* Implementation of designs in collaboration with UX/UI designers.
+* Implementation of Backend services in Frontend ensuring proper functionality.
+* Implementation of external charting libraries such as ChartJS, Google Chart, among others.

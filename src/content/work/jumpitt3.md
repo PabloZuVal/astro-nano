@@ -1,7 +1,14 @@
 ---
 company: "Jumpitt Labs"
-role: "Developer, Software Engineer 3"
+role: "Full Stack Developer, Software Engineer"
 dateStart: "08/01/2022"
 dateEnd: "08/01/2023"
 ---
-As a developer at Jumpitt Labs, I have accumulated diverse experience across three different projects. In Agromind, I worked as a Front-end Developer using React, Redux, and Saga, focusing on MVP development. In the Boleta Digital project, I implemented designs with Angular 12 and TypeScript, optimizing bill previsualization for Claro. In the Verify project, I assumed a Full Stack Developer role, implementing integration with CUE (Unique State Key) through AWS email services, working on platform redesign alongside designers to establish a new brand guide, generating backends in NodeJS, implementing APIs, designing databases in PostgreSQL, and configuring infrastructure in AWS using services like EC2, NGINX, and Docker. My trajectory reflects a versatile technical expertise, spanning frontend and backend technologies, with cloud infrastructure skills, always focused on creating efficient technological solutions.
+
+
+* Implementation of various fingerprint and facial verification tools for identity confirmation and their proper flow.
+* Backend generation in NodeJS, API development and implementation.
+* Database design and implementation.
+* Implemented verification with CUE (State Unique Key) using AWS email service.
+* Collaborated with designers to implement new brand design, implementing new design guidelines for the brand and platform.
+* Configured EC2 servers on AWS, deployment in development, testing and production environments using NGINX, Docker and PM2.
