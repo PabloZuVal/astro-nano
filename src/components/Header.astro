@@ -6,15 +6,20 @@ import { SITE } from "@consts";
 
 <header>
   <Container>
-    <div class="flex flex-wrap gap-y-2 justify-between">
-      <Link href="/" underline={false}>
-        <div class="font-semibold">
-          {SITE.NAME}
-          <div class="text-sm opacity-75 font-light">
-            Software Developer
-          </div>
+    <div class="flex flex-wrap gap-y-2 justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="/profile.jpeg" alt="Profile Picture" class="w-10 h-10 rounded-full object-cover" />
+        <div class="flex items-center gap-2">
+          <Link href="/" underline={false}>
+            <div class="font-semibold">
+              {SITE.NAME}
+              <div class="text-sm opacity-75 font-light">
+                Software Developer
+              </div>
+            </div>
+          </Link>
         </div>
-      </Link>
+      </div>
       <nav class="flex gap-1">
         <!-- <Link href="/blog">
           blog
