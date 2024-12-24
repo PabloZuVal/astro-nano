@@ -1,5 +1,5 @@
 ---
-title: "🏦 MACH App Clone - UI/UX Study"
+title: "🏦 MACH App Clone - UI Study"
 description: "A recreation of the MACH banking application user interface, developed as a study project to dive deep into modern financial application design patterns.
 "
 date: "Mar 26 2024"
