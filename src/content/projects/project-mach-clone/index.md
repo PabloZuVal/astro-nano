@@ -3,11 +3,10 @@ title: "🏦 MACH App Clone - UI Study"
 description: "A recreation of the MACH banking application user interface, developed as a study project to dive deep into modern financial application design patterns.
 "
 date: "Mar 26 2024"
-# demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/PabloZuVal"
 ---
-### Description
-A recreation of the MATCH banking application user interface, developed as a study project to dive deep into modern financial application design patterns.
+> ### Description
+> A recreation of the MATCH banking application user interface, developed as a study project to dive deep into modern financial application design patterns.
 
 ### 🛠️ Technologies Used
 - Jetpack Compose for UI building
@@ -23,6 +22,7 @@ A recreation of the MATCH banking application user interface, developed as a stu
 - Dark mode / light mode support
 
 ### 📱 Preview
+<br>
 <div style="display: flex; justify-content: space-between;">
   <img src="/mach-clone-1.png" alt="Vista 1" style="width: 45%;">
   <img src="/mach-clone-2.png" alt="Vista 2" style="width: 45%;">
@@ -34,6 +34,6 @@ A recreation of the MATCH banking application user interface, developed as a stu
 </div>
 
 ### 📚 Learnings
-- Implementation of modern design patterns for banking apps
-- Performance optimization in complex interfaces
-- State management and navigation in financial apps
+- [x] Implementation of modern design patterns for banking apps
+- [x] Performance optimization in complex interfaces
+- [x] State management and navigation in financial apps
