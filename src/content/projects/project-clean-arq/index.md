@@ -1,5 +1,5 @@
 ---
-title: "Personal Library - Android App"
+title: "📖 Personal Library - Android App"
 description: "Clean Architecture Android app showcasing modern development practices with Kotlin"
 date: "Mar 26 2023"
 repoURL: "https://github.com/"
