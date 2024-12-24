@@ -4,8 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://pablozuval.github.io/",
-  base: "/",
-  // trailingSlash:"always",
+  site: "https://pablozuniga.me/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
