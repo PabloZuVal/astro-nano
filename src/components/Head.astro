@@ -171,7 +171,9 @@ function toggleTheme(dark) {
     if (userTheme === "light" || userTheme === "dark") {
       toggleTheme(userTheme === "dark");
     } else {
-      toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+      toggleTheme(false);
+      localStorage.setItem("theme", "light");
+      // toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
     }
   }
 
