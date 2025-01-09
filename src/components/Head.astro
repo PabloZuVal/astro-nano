@@ -166,15 +166,15 @@ function toggleTheme(dark) {
   }
 
   function preloadTheme() {
-    const userTheme = localStorage.theme;
+    // const userTheme = localStorage.theme;
+    toggleTheme(false);
+    localStorage.setItem("theme", "light");
 
-    if (userTheme === "light" || userTheme === "dark") {
-      toggleTheme(userTheme === "dark");
-    } else {
-      toggleTheme(false);
-      localStorage.setItem("theme", "light");
-      // toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
-    }
+    // if (userTheme === "light" || userTheme === "dark") {
+    //   toggleTheme(userTheme === "dark");
+    // } else {
+    //   // toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+    // }
   }
 
   document.addEventListener("DOMContentLoaded", () => init());
