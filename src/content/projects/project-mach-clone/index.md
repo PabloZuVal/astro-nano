@@ -1,5 +1,5 @@
 ---
-title: "🏦 MACH App Clone - Banking UI Implementation"
+title: "🏦 MACH Android App Clone - UI Implementation"
 description: "A comprehensive clone of MACH's prepaid banking application, built with modern Android development practices and Clean Architecture principles."
 date: "Jan 01 2025"
 repoURL: "https://github.com/PabloZuVal/Mach"
