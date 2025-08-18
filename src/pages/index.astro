@@ -40,7 +40,7 @@ const work = await Promise.all(
       <section class="animate space-y-4">
         <article>
           <p>
-            Software Engineer with over 3 years of experience in system and application development, with solid knowledge in multiple modern technologies and frameworks. My experience spans both front-end and back-end development, with particular emphasis on creating robust and scalable web solutions. I maintain an active interest in emerging areas such as Data Science, Machine Learning, and mobile development, which allows me to bring an innovative perspective to projects. I seek to apply my technical experience and continuous learning ability to contribute to the development and improvement of information systems, ensuring high-quality solutions that meet the needs of end users.          </p>
+            Full Stack Software Engineer with over 4 years of experience developing web applications using React, NestJS, Python, FastAPI, and PostgreSQL. Strong expertise in requirements analysis, API design, and code refactoring. Currently working with AI tools, integrating OpenAI API and developing conversational agents. Passionate about creating technological solutions that solve real-world problems and enhance user experience.          </p>
         </article>
       </section>
 
@@ -62,23 +62,6 @@ const work = await Promise.all(
         </ul>
       </section> -->
 
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
-            Recent projects
-          </h5>
-          <Link href="/projects">
-            See all projects
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {projects.map((project: CollectionEntry<"projects">) => (
-              <li>
-                <ArrowCard entry={project} />
-              </li>
-          ))}
-        </ul>
-      </section>
 
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
@@ -109,6 +92,23 @@ const work = await Promise.all(
         </ul>
       </section>
 
+      <section class="animate space-y-6">
+        <div class="flex flex-wrap gap-y-2 items-center justify-between">
+          <h5 class="font-semibold text-black dark:text-white">
+            Recent projects
+          </h5>
+          <Link href="/projects">
+            See all projects
+          </Link>
+        </div>
+        <ul class="flex flex-col gap-4">
+          {projects.map((project: CollectionEntry<"projects">) => (
+              <li>
+                <ArrowCard entry={project} />
+              </li>
+          ))}
+        </ul>
+      </section>
 
 
       <section class="animate space-y-4">
