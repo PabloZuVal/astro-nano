@@ -18,12 +18,55 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = "/nano.png" } = Astro.props;
+const { title, description, image = "/profile.jpeg" } = Astro.props;
+
+// Structured data for SEO
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Pablo Zúñiga Valenzuela",
+  url: "https://pablozuniga.me",
+  image: "https://pablozuniga.me/profile.jpeg",
+  jobTitle: "Software Engineer",
+  description: "Full Stack Software Engineer specializing in AI-powered solutions and full-stack development",
+  sameAs: [
+    "https://www.linkedin.com/in/pablozunigavalenzuela/",
+    "https://github.com/PabloZuVal"
+  ],
+  knowsAbout: ["React", "NestJS", "Python", "FastAPI", "AI Development", "Full Stack Development", "PostgreSQL", "TypeScript"],
+  alumniOf: {
+    "@type": "EducationalOrganization",
+    name: "Pontificia Universidad Católica de Valparaíso"
+  }
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Pablo Zúñiga Valenzuela - Software Engineer Portfolio",
+  url: "https://pablozuniga.me",
+  author: {
+    "@type": "Person",
+    name: "Pablo Zúñiga Valenzuela"
+  },
+  description: "Portfolio and professional information of Pablo Zúñiga Valenzuela, Software Engineer specializing in AI and full-stack development"
+};
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<!-- Google Search Console Verification -->
+<!-- To verify site ownership with Google Search Console:
+     1. Go to https://search.google.com/search-console
+     2. Add your property (https://pablozuniga.me)
+     3. Choose HTML tag verification method
+     4. Google will provide a meta tag like: <meta name="google-site-verification" content="your-verification-code" />
+     5. Add that meta tag below this comment
+     Example: <meta name="google-site-verification" content="your-verification-code-here" />
+-->
+<meta name="google-site-verification" content="pSaQ8I-UVy1uWzz4bNbuvjvelY3o7g3C5HdLLCJLyUI" />
 <link rel="icon" type="image/svg+xml" href="/favicon-dark.ico" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/svg+xml" href="/favicon-light.ico" media="(prefers-color-scheme: light)">
 <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
@@ -42,6 +85,8 @@ const { title, description, image = "/nano.png" } = Astro.props;
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="author" content="Pablo Zúñiga Valenzuela" />
+<meta name="keywords" content="Pablo Zúñiga Valenzuela, Pablo Zuniga, Software Engineer, Full Stack Developer, AI Developer, React Developer, NestJS, Python, FastAPI, Valparaíso Chile, Web Developer, AI Solutions, Machine Learning, OpenAI, Claude Code" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
@@ -56,6 +101,10 @@ const { title, description, image = "/nano.png" } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 
 <ViewTransitions  />
 

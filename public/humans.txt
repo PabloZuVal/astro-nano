@@ -1,0 +1,14 @@
+/* TEAM */
+Developer & Designer: Pablo Zúñiga Valenzuela
+Site: https://pablozuniga.me
+Email: pablozunigavalenzuela@gmail.com
+LinkedIn: https://www.linkedin.com/in/pablozunigavalenzuela/
+GitHub: https://github.com/PabloZuVal
+Location: Valparaíso, Chile
+
+/* SITE */
+Last update: 2025/01/11
+Language: English / Español
+Doctype: HTML5
+IDE: Claude Code, VS Code
+Technologies: Astro, TypeScript, Tailwind CSS
