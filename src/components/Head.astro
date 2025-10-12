@@ -67,9 +67,18 @@ const websiteSchema = {
      Example: <meta name="google-site-verification" content="your-verification-code-here" />
 -->
 <meta name="google-site-verification" content="pSaQ8I-UVy1uWzz4bNbuvjvelY3o7g3C5HdLLCJLyUI" />
-<link rel="icon" type="image/svg+xml" href="/favicon-dark.ico" media="(prefers-color-scheme: dark)">
-<link rel="icon" type="image/svg+xml" href="/favicon-light.ico" media="(prefers-color-scheme: light)">
-<!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
+
+<!-- Primary favicon (for Google and legacy browsers) -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+<!-- Theme-aware favicons (for modern browsers) -->
+<link rel="icon" type="image/x-icon" href="/favicon-light.ico" media="(prefers-color-scheme: light)" />
+<link rel="icon" type="image/x-icon" href="/favicon-dark.ico" media="(prefers-color-scheme: dark)" />
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" href="/profile.jpeg" />
+
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
