@@ -1,16 +1,16 @@
 import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
-  NAME: "Pablo Zúñiga",
+  NAME: "Pablo Zúñiga Valenzuela",
   EMAIL: "pablozunigavalenzuela@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
+  NUM_WORKS_ON_HOMEPAGE: 3,
+  NUM_PROJECTS_ON_HOMEPAGE: 1,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "Pablo Zúñiga - Software Engineer specializing in AI-powered solutions and full-stack development. Building impactful applications with React, NestJS, Python, and AI technologies.",
 };
 
 export const BLOG: Metadata = {
@@ -19,13 +19,13 @@ export const BLOG: Metadata = {
 };
 
 export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  TITLE: "Work Experience",
+  DESCRIPTION: "4+ years building AI agents, full-stack platforms, and enterprise solutions. Experience with React, NestJS, Python, and modern web technologies.",
 };
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "Featured projects including AI-powered healthcare applications, Android apps with Clean Architecture, and full-stack platform implementations.",
 };
 
 export const SOCIALS: Socials = [

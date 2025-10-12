@@ -32,15 +32,85 @@ const work = await Promise.all(
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Pablo <span class="text-xl">👋🏻</span>
-    </h4>
+    <div class="animate flex items-start gap-6 mb-8">
+      <img
+        src="/profile.jpeg"
+        alt="Pablo Zúñiga"
+        class="w-24 h-24 rounded-full object-cover border-2 border-black/10 dark:border-white/10"
+      />
+      <div>
+        <h4 class="font-semibold text-black dark:text-white">
+          Hi, I'm Pablo <span class="text-xl">👋🏻</span>
+        </h4>
+        <p class="text-sm opacity-75 mt-1">Software Engineer | AI & Full-Stack Developer</p>
+      </div>
+    </div>
 
     <div class="space-y-16">
       <section class="animate space-y-4">
         <article>
           <p>
-            Full Stack Software Engineer with over 4 years of experience developing web applications using React, NestJS, Python, FastAPI, and PostgreSQL. Strong expertise in requirements analysis, API design, and code refactoring. Currently working with AI tools, integrating OpenAI API and developing conversational agents. Passionate about creating technological solutions that solve real-world problems and enhance user experience.          </p>
+            Full Stack Software Engineer with over 4 years of experience developing web applications using React, NestJS, Python, FastAPI, and PostgreSQL. Strong expertise in requirements analysis, API design, and code refactoring. Currently working with AI tools, integrating OpenAI API and developing conversational agents. Passionate about creating technological solutions that solve real-world problems and enhance user experience.
+          </p>
+        </article>
+      </section>
+
+      <section class="animate space-y-4">
+        <h5 class="font-semibold text-black dark:text-white">
+          Technical Skills
+        </h5>
+        <div class="space-y-3">
+          <div>
+            <p class="text-sm font-medium opacity-75">Frontend</p>
+            <p class="text-sm">React, Redux, Angular, Vue.js, TypeScript, Tailwind CSS, Material-UI, Jetpack Compose</p>
+          </div>
+          <div>
+            <p class="text-sm font-medium opacity-75">Backend</p>
+            <p class="text-sm">NestJS, Node.js, FastAPI, Python, Express, PostgreSQL, MySQL, TypeORM</p>
+          </div>
+          <div>
+            <p class="text-sm font-medium opacity-75">AI/ML</p>
+            <p class="text-sm">TensorFlow, Keras, Chainlit, OpenAI API, CNN, NLP, Pandas, NumPy</p>
+          </div>
+          <div>
+            <p class="text-sm font-medium opacity-75">DevOps & Tools</p>
+            <p class="text-sm">Docker, AWS (EC2, SES), Git, NGINX, PM2, Agile/Scrum, JIRA</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="animate space-y-4">
+        <h5 class="font-semibold text-black dark:text-white">
+          Resume
+        </h5>
+        <article>
+          <p class="text-sm mb-3">
+            Download my resume in your preferred language:
+          </p>
+          <div class="flex gap-3 flex-wrap">
+            <a
+              href="/cv-pablo-zuniga-eng.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:opacity-80 transition-opacity text-sm"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              English CV
+            </a>
+            <a
+              href="/cv-pablo-zuniga-es.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:opacity-80 transition-opacity text-sm"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              CV en Español
+            </a>
+          </div>
         </article>
       </section>
 
